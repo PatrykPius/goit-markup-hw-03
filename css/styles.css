@@ -141,6 +141,8 @@ align-items: center;
   border-radius: 4px;
   margin-bottom: 200px;
   padding: 10px 42px 10px 41px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
 }
 
 .p-content {
@@ -177,7 +179,7 @@ align-items: center;
   color: var(--address);
   letter-spacing: 0.03em;
   font-style: normal;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .address-contact {
@@ -206,6 +208,7 @@ align-items: center;
 .portf-btns:focus {
   background-color: var(--active-color);
   color: var(--btns);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-main {
@@ -251,7 +254,7 @@ align-items: center;
   line-height: 1.19;
   letter-spacing: 0.03em;
   width: 145px;
-  padding-top: 20px;
+  
 }
 
 /* only efefective solutions */
@@ -266,12 +269,12 @@ align-items: center;
   text-align: center;
 }
 
-.h2-whatwedo {
+.h2-whatwedoing {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .h2-our-team {
@@ -286,6 +289,7 @@ align-items: center;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 
 .name {
@@ -326,13 +330,12 @@ align-items: center;
 }
 
 .headerstyle-portfolio {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #ECECEC;
+  border-bottom: 1px solid rgb(236,236,236);
 }
 
 .text-style {
     display: flex;
+    gap: 30px;
 }
 
 .what-we-do {
@@ -347,10 +350,13 @@ gap: 30px;
 }
 
 .our-team {
-    background-color: var(--second-background-color);
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.our-team-background-color {
+    background-color: var(--second-background-color);
 }
 
 .img-ourteam {
