@@ -220,8 +220,11 @@ button {
 }
 
 .portf-figcap {
-  border: 1px solid #EEEEEE;
-  border-top: none;
+  /* border: 1px solid #EEEEEE;
+  border-top: none; */
+  border-left: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
   margin-top: 0;
   padding: 24px 20px;
 }
